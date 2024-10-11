@@ -50,11 +50,9 @@ h1 {
 }
 
 .content-card-text {
-
-    transform: translate(2%);
     color: black;
     font-family: 'Monserrat';
-    font-size: 35px;
+    font-size: calc(1.5vw + 1.5vh);
 }
 
 .content-card {
