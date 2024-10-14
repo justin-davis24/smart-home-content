@@ -218,3 +218,50 @@ h6 {
     margin: 0 15rem 0 15rem;
     font-size: 40px
 }
+
+.box-border-content-card {
+    margin: 0 50px 0 50px;
+    background-color: #FF6969;
+    display: flex;
+    flex-flow: nowrap column;
+    border: solid 2px black;
+    justify-content: flex-start;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.box-border-content-card-img {
+    min-height: 46vh;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.box-border-content-card-text {
+    display: flex;
+    flex-flow: column wrap;
+    padding-bottom: 0;
+}
+
+.box-border-content-card-text > h2 {
+    margin-bottom: 0;
+}
+
+.box-border-content-card-text p {
+    margin-top: 1%;
+}
+
+.box-border-content-card-margin {
+    margin: 5% 50px 0 50px;
+    background-color: #FF6969;
+    display: flex;
+    flex-flow: nowrap column;
+    border: solid 2px black;
+    justify-content: flex-start;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.margin {
+    margin-left: 50px;
+    font-size: 24px;
+}
