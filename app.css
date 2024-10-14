@@ -76,6 +76,17 @@ h1 {
     align-content: center;
 }
 
+.content-card-safe {
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 25px;
+    margin: 20px 20px 0 20px;
+    background-color: #FF6969;
+    color: black;
+    font-family: 'Monserrat';
+    align-content: center;
+}
+
 .content-card-img {
     width: 50%;
     border-radius: 50px;
